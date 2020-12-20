@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* NotoSans */
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/NotoSans/NotoWebDemiLight.eot');
+    src: local('Noto Sans DemiLight'), url('fonts/NotoSans/NotoWebDemiLight.eot?#iefix') format('embedded-opentype'), url('fonts/NotoSans/NotoWebDemiLight.woff') format('woff'), url('fonts/NotoSans/NotoWebDemiLight.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/NotoSans/NotoWebMedium.eot');
+    src: url('fonts/NotoSans/NotoWebMedium.eot?#iefix') format('embedded-opentype'), url('fonts/NotoSans/NotoWebMedium.woff') format('woff'), url('fonts/NotoSans/NotoWebMedium.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'napo-icon';
+    src:    url('fonts/napo-icon.eot?cix7ap');
+    src:    url('fonts/napo-icon.eot?cix7ap#iefix') format('embedded-opentype'),
+        url('fonts/napo-icon.ttf?cix7ap') format('truetype'),
+        url('fonts/napo-icon.woff?cix7ap') format('woff'),
+        url('fonts/napo-icon.svg?cix7ap#napo-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/minecraft.eot');
+    src: url('fonts/minecraft.eot') format('embedded-opentype'), url('fonts/minecraft.ttf') format('truetype'), url('fonts/minecraft.woff') format('woff'), url('fonts/minecraft.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ----------------------------------- */
+#tinymce{
+    font-family:Noto Sans!important;
+    @import 'content.scss';
+    width: 710px;
+    margin: 0 auto;
+    color: #080000;
+    font-size: 14px;
+}
